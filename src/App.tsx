@@ -1,5 +1,3 @@
-import { useExtension } from "./hooks/useExtension";
-
 import {
   MainWrapper,
   Container,
@@ -12,8 +10,6 @@ import {
 } from "./components";
 
 const App = () => {
-  const { dispatch } = useExtension();
-
   return (
     <MainWrapper>
       <Container>
