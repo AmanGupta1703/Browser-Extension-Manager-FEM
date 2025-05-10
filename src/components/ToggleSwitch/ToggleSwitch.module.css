@@ -1,0 +1,33 @@
+.switch-box {
+  cursor: pointer;
+  background-color: var(--color-neutral-600);
+
+  border-radius: 2rem;
+  padding: 0 0.2rem;
+  width: 4rem;
+  height: 2.2rem;
+  position: relative;
+}
+
+.switch {
+  display: block;
+  background-color: var(--color-neutral-0);
+  border-radius: 100%;
+  width: 1.7rem;
+  height: 1.7rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  transition: all 250ms ease-in-out;
+}
+
+/* Active */
+.switch-box.active {
+  background-color: var(--color-red-400);
+  background-color: var(r--color-red-400);
+}
+
+.switch-box.active .switch {
+  transform: translate(104%, -50%);
+}

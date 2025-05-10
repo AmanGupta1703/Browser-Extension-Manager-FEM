@@ -1,0 +1,7 @@
+.logo-container {
+  transition: all 250ms ease-in-out;
+}
+
+.logo-container:hover {
+  transform: scale(0.96);
+}

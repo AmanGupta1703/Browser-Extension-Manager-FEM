@@ -1,0 +1,12 @@
+.primary-heading {
+  font-size: 3.2rem;
+  transition: all 250ms ease-in-out;
+}
+
+.primary-heading.light {
+  color: var(--color-neutral-900);
+}
+
+.primary-heading.dark {
+  color: var(--color-neutral-0);
+}

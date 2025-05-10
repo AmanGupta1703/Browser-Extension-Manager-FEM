@@ -1,0 +1,21 @@
+.header {
+  border-radius: 1.6rem;
+  transition: all 250ms ease-in-out;
+  padding: 1.5rem;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Light Theme */
+.header.light {
+  background-color: var(--color-neutral-0);
+}
+
+/* Dark Theme */
+.header.dark {
+  background-color: var(--color-neutral-800);
+}

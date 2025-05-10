@@ -1,0 +1,85 @@
+.extension-card {
+  align-self: stretch;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 38.8rem;
+  height: 20rem;
+}
+
+.extension-card-header {
+  display: flex;
+  column-gap: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.logo-box {
+}
+
+.extension-card-header-text {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.extension-card-header-text h2 {
+  font-size: 1.4rem;
+}
+
+.extension-card-header-text p {
+  font-size: 1.2rem;
+}
+
+.extension-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* DARK */
+.extension-card.dark {
+  border: 0.2rem solid var(--color-neutral-600);
+  background-color: var(--color-neutral-800);
+}
+
+.dark h2 {
+  color: var(--color-neutral-0);
+}
+
+.dark p {
+  color: var(--color-neutral-100);
+}
+
+/* LIGHT */
+.extension-card.light {
+  background-color: var(--color-neutral-0);
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 430px) {
+  .extension-card {
+    /* max-width: 38rem; */
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .extension-card {
+    width: 35.8rem;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  .extension-card {
+    width: 29.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .extension-card {
+    width: 31.8rem;
+  }
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ff-primary: "Noto Sans", sans-serif;
+
+  --color-neutral-900: hsl(227, 75%, 14%);
+  --color-neutral-800: hsl(226, 25%, 17%);
+  --color-neutral-700: hsl(225, 23%, 24%);
+  --color-neutral-600: hsl(226, 11%, 37%);
+  --color-neutral-300: hsl(0, 0%, 78%);
+  --color-neutral-200: hsl(217, 61%, 90%);
+  --color-neutral-100: hsl(0, 0%, 93%);
+  --color-neutral-0: hsl(200, 60%, 99%);
+
+  --color-red-400: hsl(3, 86%, 64%);
+  --color-red-500: hsl(3, 71%, 56%);
+  --color-red-700: hsl(3, 77%, 44%);
+
+  --gradient-light: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --gradient-dark: linear-gradient(180deg, #040918 0%, #091540 100%);
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+html,
+body,
+#root {
+  transition: all 500ms ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-size: cover;
+  font-family: var(--ff-primary);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 1496px) {
+  html {
+    font-size: 100%;
+  }
+}

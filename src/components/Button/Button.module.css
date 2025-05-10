@@ -1,0 +1,76 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: var(--fw-500);
+  outline: none;
+  transition: all 250ms ease-in-out;
+}
+
+/* BUTTON PRIMARY */
+.btn-primary {
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem;
+}
+
+/* BUTTON PRIMARY DARK */
+.btn-dark {
+  color: var(--color-neutral-0);
+  background-color: var(--color-neutral-700);
+}
+
+.btn-primary.active {
+  color: var(--color-neutral-900);
+  background-color: var(--color-red-400);
+}
+
+.btn-primary.btn-dark:hover {
+  background-color: var(--color-neutral-600);
+}
+
+.btn-primary.active:hover {
+  background-color: var(--color-red-500);
+}
+
+/* BUTTON PRIMARY LIGHT */
+.btn-primary.btn-light {
+  color: var(--color-neutral-600);
+  background-color: var(--color-neutral-0);
+}
+
+.btn-primary.btn-light.active {
+  background-color: var(--color-red-400);
+  color: var(--color-neutral-0);
+}
+
+.btn-primary.btn-light:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+/* BUTTON SECONDARY */
+.btn-secondary {
+  background-color: transparent;
+  border: 0.2rem solid var(--color-neutral-600);
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.btn-secondary.btn-dark {
+  color: var(--color-neutral-0);
+}
+
+.btn-secondary.btn-dark:hover {
+  color: var(--color-neutral-900);
+  border-color: var(--color-red-400);
+  background-color: var(--color-red-400);
+}
+
+.btn-secondary.btn-light:hover {
+  color: var(--color-neutral-0);
+  border-color: var(--color-red-400);
+  background-color: var(--color-red-400);
+}
