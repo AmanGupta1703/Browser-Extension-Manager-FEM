@@ -17,7 +17,7 @@
   height: 58rem;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 768px) {
   .filterbar {
     flex-direction: column;
     row-gap: 1rem;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .extensionslist {
-    height: 54rem;
+    height: 64rem;
   }
 }
 
